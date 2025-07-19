@@ -10,7 +10,7 @@ if (startButton.length == 0)
 	alert("NOT APPLICABLE");
 }
 
-codeWritingPrompt = document.getElementsByClassName("code-writing-prompt");
+const codeWritingPrompt = document.getElementsByClassName("code-writing-prompt");
 
 function copyInformation()
 {
