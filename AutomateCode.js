@@ -14,7 +14,7 @@ const codeWritingPrompt = document.getElementsByClassName("code-writing-prompt")
 
 function copyInformation()
 {
-	navigator.clipboard.writeText(codeWritingPrompt[0].textContent);
+	navigator.clipboard.writeText("Solve and return back to me ONLY THE CODE. and please do not instantiate varables they're already set" + codeWritingPrompt[0].textContent);
 	console.log("Copied Succesfully!");
 }
 //Give three seconds to click back onto the webpage 
@@ -22,4 +22,3 @@ function copyInformation()
 setTimeout(() => copyInformation(), 3000);
 
 //Successfully copied after this
-
